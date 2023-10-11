@@ -1,7 +1,7 @@
 /**
  * 
  *  Autor: Ignacio Carmona González
- *  Github:
+ *  Github: https://github.com/IgnacioCG28/examen-tema-1.git
  * 
  *  Area rectangulo = L * a
  * P rectangulo = 2 * (L * a)
