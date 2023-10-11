@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
     calcular.addEventListener("click",  () => {
         const longitud = parseFloat(document.getElementById("longitud").value);
         const ancho = parseFloat(document.getElementById("ancho").value);
-        /*Comprobamos que los datos son válidos y en caso contrario lo decimos al usuario */
+        /*Comprobamos que los datos son válidos y en caso contrario lo decimos al usuario. */
         if (!isNaN(longitud) && !isNaN(ancho)) {
             const area = longitud * ancho;
             const peri = 2 * (longitud + ancho);
@@ -32,7 +32,8 @@ document.addEventListener("DOMContentLoaded", () => {
             resultado2.innerText = `El perímetro del rectángulo es: ${peri}`
             resultado3.innerText = `La diagonal del rectángulo es: ${diag}`
         } else {
-            resultado.innerHTML = "Por favor, ingrese valores válidos.";
+            /*En caso de no tener un Value correcto se muestra por pantalla al usuario */
+            resultado.innerText = "Por favor, ingrese valores válidos.";
         }
     });
 });
