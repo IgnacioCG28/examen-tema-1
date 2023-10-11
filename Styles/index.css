@@ -12,7 +12,7 @@ label{
 input{
 height: 25px;
 }
-
+/*Se le da forma al boton y que tenga el color obligatorio*/
 .btn{
 color: white;
 background-color: #007BFF;
